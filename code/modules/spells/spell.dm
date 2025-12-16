@@ -149,7 +149,7 @@
 	// Following vars are used for mouse pointer charge only
 	/// World time that the charge started.
 	var/charge_started_at = 0
-	/// Charge target time, from get_charge_time().
+	/// Charge target time, from get_adjusted_charge_time().
 	var/charge_target_time = 0
 	/// Whether the spell is currently charged, for cases where you want to keep casting after the initial charge (projectiles).
 	var/charged = FALSE
