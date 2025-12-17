@@ -31,7 +31,7 @@
 	dir = 9
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "aq" = (
 /obj/structure/closet/crate/chest/neu_fancy,
@@ -88,7 +88,7 @@
 /area/outdoors/beach)
 "aQ" = (
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "aZ" = (
 /obj/structure/stairs{
@@ -168,7 +168,7 @@
 /area/outdoors/beach)
 "bP" = (
 /obj/structure/fluff/railing/border,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "bY" = (
 /obj/structure/rack/shelf/notdense,
@@ -652,7 +652,7 @@
 	dir = 9;
 	layer = 2.7
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "gG" = (
 /obj/structure/closet/crate/chest/neu_iron,
@@ -716,7 +716,7 @@
 /obj/structure/fluff/railing/border{
 	layer = 2.65
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "ha" = (
 /obj/item/bin/water,
@@ -843,7 +843,7 @@
 /turf/open/floor/cobble,
 /area/ship/middeck)
 "ir" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "it" = (
 /obj/structure/door/viewport{
@@ -957,14 +957,14 @@
 /area/ship/nobledeck)
 "ju" = (
 /obj/structure/fluff/railing/border,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "jv" = (
 /obj/structure/industrial_lift/tram,
 /obj/structure/fluff/railing/border{
 	dir = 5
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "jw" = (
 /obj/effect/landmark/start/wapprentice,
@@ -1022,7 +1022,7 @@
 	dir = 8
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "jS" = (
 /obj/structure/fluff/wallclock/l,
@@ -1189,7 +1189,7 @@
 	},
 /obj/structure/fluff/railing/border,
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "lF" = (
 /obj/structure/door/viewport{
@@ -1243,7 +1243,7 @@
 	dir = 4
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "mh" = (
 /obj/structure/chair/bench/couch/right,
@@ -1292,7 +1292,7 @@
 	layer = 2.6;
 	color = "#ff9a55"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "mC" = (
 /obj/structure/bed/inn,
@@ -1453,7 +1453,7 @@
 "nv" = (
 /obj/structure/bars,
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "nA" = (
 /obj/structure/fluff/railing/wood,
@@ -1546,7 +1546,7 @@
 	next_path_id = "point_1"
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "oz" = (
 /obj/item/bin/water/gross,
@@ -1574,7 +1574,7 @@
 	next_path_id = "cargo_map_enter";
 	platform_code = "cargo_return_2"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "oN" = (
 /obj/structure/industrial_lift/tram{
@@ -1583,7 +1583,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "pb" = (
 /obj/structure/rack/shelf/notdense,
@@ -1643,7 +1643,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 1
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "pu" = (
 /obj/structure/window/openclose{
@@ -1716,7 +1716,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 5
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "qg" = (
 /obj/item/candle/yellow/lit{
@@ -1775,7 +1775,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 10
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "qA" = (
 /obj/structure/window/openclose{
@@ -1860,7 +1860,7 @@
 	next_path_id = "cargo_return_2";
 	platform_code = "cargo_return_1"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "rq" = (
 /obj/structure/rack/shelf/notdense{
@@ -1913,7 +1913,7 @@
 	dir = 1
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "rB" = (
 /obj/effect/decal/cobbleedge{
@@ -2016,7 +2016,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 10
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "sC" = (
 /obj/structure/industrial_lift/tram,
@@ -2081,7 +2081,7 @@
 	icon_state = "tablewood3"
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "tf" = (
 /turf/open/floor/rooftop/green{
@@ -2234,13 +2234,13 @@
 /obj/effect/landmark/tram/queued_path/cargo_pre_enter{
 	next_path_id = "cargo_stop"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "uC" = (
 /obj/structure/plank{
 	icon_state = "plank"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "uJ" = (
 /obj/effect/decal/cobbleedge{
@@ -2272,7 +2272,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "va" = (
 /obj/structure/table/wood,
@@ -2383,7 +2383,7 @@
 "wi" = (
 /obj/machinery/light/fueled/torchholder/r,
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "wk" = (
 /obj/structure/door/fancy,
@@ -2400,7 +2400,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 5
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "ws" = (
 /obj/structure/fluff/railing/border{
@@ -2413,13 +2413,13 @@
 /obj/structure/fluff/railing/border{
 	dir = 9
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "wy" = (
 /obj/structure/fluff/railing/border{
 	dir = 5
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "wB" = (
 /obj/effect/decal/cobbleedge{
@@ -2499,7 +2499,7 @@
 	layer = 2.6;
 	color = "#ff9a55"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "xl" = (
 /obj/structure/door{
@@ -2740,7 +2740,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 1
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "zB" = (
 /obj/structure/meathook,
@@ -2878,7 +2878,7 @@
 	density = 1;
 	opacity = 1
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Bt" = (
 /obj/structure/door/weak/bolt{
@@ -2920,7 +2920,7 @@
 /turf/open/floor/ruinedwood/two,
 /area/ship/middeck)
 "BC" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "BE" = (
 /obj/structure/stairs{
@@ -2973,7 +2973,7 @@
 	pixel_y = 4;
 	layer = 2.6
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "BY" = (
 /obj/structure/toilet,
@@ -2985,7 +2985,7 @@
 	next_path_id = "cargo_pre_enter";
 	platform_code = "point_1"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Cf" = (
 /obj/structure/fluff/railing/border{
@@ -3111,7 +3111,7 @@
 	dir = 9;
 	layer = 2.7
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "DF" = (
 /obj/structure/bed/hay,
@@ -3169,7 +3169,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "Eu" = (
 /obj/structure/fluff/railing/border,
@@ -3193,7 +3193,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "Ez" = (
 /obj/structure/fluff/railing/wood{
@@ -3404,11 +3404,11 @@
 	dir = 10
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "FR" = (
 /obj/structure/bars/grille,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "FS" = (
 /obj/structure/door/viewport,
@@ -3449,7 +3449,7 @@
 /obj/effect/landmark/tram/queued_path/cargo_exit{
 	next_path_id = "cargo_map_exit"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Go" = (
 /obj/structure/bed/inn,
@@ -3514,7 +3514,7 @@
 	dir = 1
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Hf" = (
 /obj/structure/bed/inn/double,
@@ -3713,7 +3713,7 @@
 	layer = 2.6;
 	color = "#ff9a55"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "IH" = (
 /obj/structure/fluff/railing/wood{
@@ -3830,7 +3830,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "JD" = (
 /obj/effect/landmark/start/orthodoxist,
@@ -4008,7 +4008,7 @@
 	icon_state = "roofg";
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Lu" = (
 /obj/effect/decal/cobbleedge{
@@ -4085,7 +4085,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Mf" = (
 /obj/structure/table/wood{
@@ -4146,7 +4146,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 10
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "MZ" = (
 /obj/structure/table/wood{
@@ -4207,7 +4207,7 @@
 	dir = 1
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Nw" = (
 /obj/structure/bed/shit,
@@ -4259,7 +4259,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 10
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "NN" = (
 /turf/closed/wall/mineral/wooddark/end{
@@ -4314,7 +4314,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 1
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Ok" = (
 /obj/structure/fluff/railing/border,
@@ -4341,7 +4341,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "plank2"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "OD" = (
 /obj/item/statue/gold{
@@ -4431,7 +4431,7 @@
 /obj/effect/landmark/tram/queued_path/cargo_map_exit{
 	next_path_id = "cargo_return_1"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "PB" = (
 /obj/effect/landmark/start/shophand{
@@ -4463,7 +4463,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 9
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "PM" = (
 /obj/structure/fluff/railing/border{
@@ -4473,7 +4473,7 @@
 	dir = 5
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "PO" = (
 /obj/structure/fluff/railing/border{
@@ -4507,14 +4507,14 @@
 	dir = 4
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "PY" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
 /obj/structure/fluff/railing/border,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Qc" = (
 /obj/structure/ship_wheel,
@@ -4535,7 +4535,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 1
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/middeck)
 "Ql" = (
 /obj/structure/closet/crate/chest/wicker,
@@ -4559,7 +4559,7 @@
 	dir = 9
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Qr" = (
 /obj/structure/closet/crate/chest/wicker,
@@ -4580,7 +4580,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 9
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "QH" = (
 /obj/machinery/light/fueled/torchholder/l{
@@ -4608,7 +4608,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Rc" = (
 /obj/structure/fluff/railing/border{
@@ -4626,7 +4626,7 @@
 	pixel_y = 4;
 	layer = 2.6
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Rl" = (
 /obj/structure/door{
@@ -4676,7 +4676,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 5
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/middeck)
 "RG" = (
 /obj/structure/closet/crate/drawer/inn,
@@ -4721,7 +4721,7 @@
 	},
 /obj/structure/fluff/railing/border,
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Sb" = (
 /obj/effect/landmark/start/priest,
@@ -4731,7 +4731,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Si" = (
 /turf/open/floor/ruinedwood,
@@ -4838,7 +4838,7 @@
 /obj/structure/industrial_lift/tram{
 	fake = 1
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Tf" = (
 /turf/closed/wall/mineral/wooddark/end,
@@ -4958,7 +4958,7 @@
 	dir = 4
 	},
 /obj/structure/fluff/railing/border,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "TH" = (
 /turf/open/floor/rooftop/green{
@@ -4991,7 +4991,7 @@
 	pixel_y = 4;
 	layer = 2.6
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Ua" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
@@ -5036,7 +5036,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Uk" = (
 /obj/effect/decal/cobbleedge{
@@ -5064,7 +5064,7 @@
 	dir = 8
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Up" = (
 /obj/structure/fluff/walldeco/chains,
@@ -5074,7 +5074,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "Uz" = (
 /turf/open/floor/ruinedwood/spiral,
@@ -5391,7 +5391,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/middeck)
 "XG" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
@@ -5411,7 +5411,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 1
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "XS" = (
 /obj/structure/closet/crate/coffin,
@@ -5420,7 +5420,7 @@
 "XW" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Yc" = (
 /turf/open/floor/churchmarble,
@@ -5588,7 +5588,7 @@
 /area/ship/middeck)
 "ZI" = (
 /obj/effect/landmark/tram/queued_path/cargo_stop,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "ZR" = (
 /obj/machinery/anvil/crafted,

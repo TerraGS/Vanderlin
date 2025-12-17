@@ -134,7 +134,7 @@
 	mapped = FALSE
 	river_processes = FALSE
 	icon_state = "together"
-	baseturfs = /turf/open/transparent/openspace
+	baseturfs = /turf/open/openspace
 
 /turf/open/water/river/handle_water()
 	if(water_volume < 10)

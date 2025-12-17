@@ -61,7 +61,7 @@
 /turf/template_noop,
 /area/template_noop)
 "U" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/template_noop)
 "X" = (
 /turf/open/floor/wood,

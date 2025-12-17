@@ -725,7 +725,7 @@
 /turf/open/floor/wood,
 /area/outdoors/mountains)
 "gG" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/bog)
 "gO" = (
 /obj/structure/fluff/walldeco/vinez{
@@ -812,7 +812,7 @@
 /turf/open/floor/twig,
 /area/under/mountains/anvil/lower)
 "hN" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/under/mountains/anvil/upper)
 "hO" = (
 /obj/item/reagent_containers/food/snacks/sugar{
@@ -2635,7 +2635,7 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/outdoors/mountains)
 "Cv" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/mountains)
 "Cw" = (
 /mob/living/carbon/human/species/goblin,
@@ -3875,7 +3875,7 @@
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/lower)
 "PF" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/under/mountains/anvil/lower)
 "PH" = (
 /obj/structure/fluff/statue/spider,
@@ -4266,7 +4266,7 @@
 /area/under/mountains/anvil/lower)
 "Th" = (
 /obj/structure/bridge,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/under/mountains/anvil/lower)
 "Tm" = (
 /obj/structure/fluff/railing/wood{
@@ -4384,7 +4384,7 @@
 /turf/open/floor/cobblerock,
 /area/under/mountains/anvil/lower)
 "Ux" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/under/cave)
 "Uz" = (
 /obj/item/mana_battery/mana_crystal/small,
@@ -4434,7 +4434,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/villagegarrison)
 "UR" = (
 /obj/structure/flora/newtree,
