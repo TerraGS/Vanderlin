@@ -20,7 +20,7 @@
 /turf/open/floor/church,
 /area/underworld)
 "kH" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/underworld)
 "lw" = (
 /obj/structure/table/wood/fine/altar,
@@ -281,7 +281,7 @@
 /turf/open/floor/church,
 /area/underworld)
 "Zm" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area)
 
 (1,1,1) = {"

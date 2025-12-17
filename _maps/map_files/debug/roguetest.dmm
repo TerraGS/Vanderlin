@@ -2024,7 +2024,7 @@
 /turf/open/floor/grass/yel,
 /area/outdoors)
 "ss" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors)
 "su" = (
 /obj/item/recipe_book/survival,
@@ -3307,7 +3307,7 @@
 	layer = 4;
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors)
 "SE" = (
 /obj/structure/hotspring/border/eleven,

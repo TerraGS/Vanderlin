@@ -191,7 +191,7 @@
 /turf/open/water/cleanshallow,
 /area/under/tomb/cave/wet)
 "hb" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/under/tomb/cave/wet)
 "hf" = (
 /obj/structure/fluff/railing/border{
@@ -217,7 +217,7 @@
 /turf/closed/wall/mineral/craftstone,
 /area/under/tomb/indoors)
 "hq" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/under/tomb/cave)
 "hD" = (
 /obj/structure/fluff/railing/border{
@@ -963,7 +963,7 @@
 /obj/structure/floordoor{
 	redstone_id = "hctomb03drop"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/under/tomb/cave/wet)
 "IU" = (
 /obj/structure/lever/hidden{
@@ -1567,7 +1567,7 @@
 /turf/open/floor/blocks/stonered/tiny,
 /area/under/tomb/indoors)
 "ZJ" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/under/tomb/indoors)
 "ZK" = (
 /obj/effect/decal/cleanable/blood/splatter,
