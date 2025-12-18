@@ -1421,7 +1421,7 @@
 /turf/open/floor/carpet,
 /area/indoors)
 "jH" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area)
 "jM" = (
 /obj/machinery/light/fueled/wallfire/candle,
