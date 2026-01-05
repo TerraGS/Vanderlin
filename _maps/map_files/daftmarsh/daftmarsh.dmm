@@ -643,7 +643,7 @@
 	dir = 4
 	},
 /obj/structure/fluff/celebration/flags,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/town)
 "aDH" = (
 /turf/closed/wall/mineral/decowood,
@@ -5232,7 +5232,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/town/magician)
 "exk" = (
 /obj/machinery/light/fueled/wallfire/candle/blue,
@@ -8883,7 +8883,7 @@
 	pixel_y = -8
 	},
 /obj/structure/fluff/walldeco/gear,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/town/clocktower)
 "hKI" = (
 /turf/open/water/river/dirt{
@@ -10850,7 +10850,7 @@
 /area/outdoors/town/roofs)
 "jsg" = (
 /obj/structure/water_pipe,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/town/roofs)
 "jsj" = (
 /obj/structure/closet/crate/drawer,
@@ -19033,7 +19033,7 @@
 /area/indoors/town)
 "qJq" = (
 /obj/structure/fluff/celebration/flags,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/town)
 "qJu" = (
 /obj/structure/fluff/railing/wood,
@@ -19777,7 +19777,7 @@
 /turf/open/floor/carpet/stellar,
 /area/indoors/town/magician)
 "rqY" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/town/manor/garrison)
 "rsg" = (
 /obj/structure/bridge_stakes{
@@ -21100,7 +21100,7 @@
 	},
 /obj/structure/water_pipe,
 /obj/structure/fluff/walldeco/gear,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/town/clocktower)
 "sET" = (
 /obj/structure/flora/grass/bush,
@@ -21544,7 +21544,7 @@
 	pixel_x = -15;
 	pixel_y = -15
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/town/clocktower)
 "tev" = (
 /obj/structure/fluff/walldeco/wantedposter,
@@ -21699,7 +21699,7 @@
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "tjQ" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/town/manor/knight)
 "tjU" = (
 /obj/structure/fluff/railing/border{
@@ -24540,7 +24540,7 @@
 /area/indoors/town/church/inquisition)
 "vRW" = (
 /obj/machinery/light/fueled/wallfire/candle,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/town/manor/knight)
 "vRY" = (
 /obj/structure/bed/wool/double,

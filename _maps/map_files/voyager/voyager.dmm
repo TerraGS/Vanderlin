@@ -573,7 +573,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "dI" = (
 /obj/machinery/light/fueled/oven/east,
@@ -2341,7 +2341,7 @@
 	dir = 4
 	},
 /obj/structure/fluff/railing/border,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "qo" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2790,7 +2790,7 @@
 /turf/open/floor/blocks/newstone/alt,
 /area/ship/middeck)
 "sN" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/middeck)
 "sT" = (
 /obj/structure/bars{
@@ -3193,7 +3193,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "uW" = (
 /turf/open/floor/tile/masonic{
@@ -3303,7 +3303,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "vH" = (
 /obj/structure/fluff/nest{
@@ -3742,7 +3742,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/nobledeck)
 "yE" = (
 /obj/structure/water_vent{
@@ -4054,7 +4054,7 @@
 /area/ship/topdeck)
 "AO" = (
 /obj/structure/fluff/railing/border,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/middeck)
 "AS" = (
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
@@ -4459,7 +4459,7 @@
 	dir = 9;
 	layer = 2.7
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "DF" = (
 /obj/structure/fermentation_keg/water{
@@ -4672,7 +4672,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "EZ" = (
 /obj/structure/bars,
@@ -4759,7 +4759,7 @@
 	dir = 1;
 	layer = 2.6
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Fv" = (
 /obj/structure/lever/hidden/keep{
@@ -4801,7 +4801,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 1
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "FI" = (
 /obj/item/bin/water,
@@ -4825,7 +4825,7 @@
 	dir = 8
 	},
 /obj/structure/fluff/railing/border,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "FN" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
@@ -5043,7 +5043,7 @@
 	dir = 1
 	},
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "Hl" = (
 /obj/structure/fluff/railing/border{
@@ -5147,7 +5147,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 1
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/middeck)
 "Ik" = (
 /obj/effect/mapping_helpers/access/keyset/manor/vault,
@@ -5210,7 +5210,7 @@
 	dir = 9;
 	layer = 2.7
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "IJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6753,7 +6753,7 @@
 "St" = (
 /obj/structure/bars/grille,
 /obj/machinery/light/fueled/torchholder/metal_torch/west,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/topdeck)
 "Sv" = (
 /obj/effect/mapping_helpers/access/locker,
@@ -7295,7 +7295,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/middeck)
 "Vt" = (
 /obj/structure/chair/pew{
@@ -7473,7 +7473,7 @@
 "Wy" = (
 /obj/machinery/light/fueled/torchholder/r,
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/beach)
 "WA" = (
 /obj/structure/fermentation_keg/random/water,
@@ -7649,7 +7649,7 @@
 /area/ship/nobledeck)
 "XI" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/ship/middeck)
 "XL" = (
 /obj/structure/fluff/railing/wood{
