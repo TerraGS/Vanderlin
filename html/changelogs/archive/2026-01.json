@@ -1,0 +1,89 @@
+{
+    "2026-01-02": {
+        "aberrantQuesrist": [
+            {
+                "bugfix": "Updates the date to reflect the new year."
+            },
+            {
+                "rscadd": "New cow sprites."
+            },
+            {
+                "refactor": "Pulls the floors.dmi file apart into an easier navigable and better organized batch. QoL for spriters."
+            },
+            {
+                "rscadd": "New turf types, sands and grass."
+            },
+            {
+                "rscadd": "New sprites for sand, saltwater, and modified mosaic tiles."
+            }
+        ],
+        "snowyseshi": [
+            {
+                "image": "new oak shield herald"
+            }
+        ],
+        "PineappleMan929": [
+            {
+                "spellcheck": "little accent thing so people spell inquisition titles right"
+            }
+        ]
+    },
+    "2026-01-03": {
+        "Syndro101": [
+            {
+                "map": "remake of the voyage ship"
+            },
+            {
+                "bugfix": "closes https://github.com/Monkestation/Vanderlin/issues/4676 and closes https://github.com/Monkestation/Vanderlin/issues/4677"
+            }
+        ],
+        "aberrantQuesrist": [
+            {
+                "map": "Cleaned up Daftmarsh, QoL updates."
+            },
+            {
+                "bugfix": "Male cows no longer have udders."
+            }
+        ]
+    },
+    "2026-01-05": {
+        "flleeppyy": [
+            {
+                "code_imp": "add new CI linter to check for unescaped brackets"
+            }
+        ],
+        "KevinfromHP": [
+            {
+                "balance": "tweaked dungeoneer's loadout, giving them knuckles and adjusting skills."
+            }
+        ],
+        "Bloo4420": [
+            {
+                "bugfix": "invisible royal truffles"
+            }
+        ],
+        "Rockslp": [
+            {
+                "rscadd": "Adds several new items to the patreon loadout options."
+            }
+        ],
+        "Somniworld": [
+            {
+                "balance": "Made all mage summons give the same amount of resources for their tier. For instance a sprite now drops 6 fairy dust, the same way an imp drops 6 Infernal ashes."
+            },
+            {
+                "bugfix": "Noc's Eye warded summoning matrices no longer get bricked if you try to summon something alone."
+            }
+        ],
+        "tired-wired": [
+            {
+                "rscadd": "Kobolds can be blue now."
+            }
+        ],
+        "snowyseshi": [
+            {
+                "bugfix": "gave abyssal guard their weapon skill and removed their swordfish"
+            }
+        ]
+    }
+}
