@@ -3189,6 +3189,10 @@
 	},
 /turf/open/floor/woodturned/nosmooth,
 /area/indoors/town/manor/feast)
+"bBG" = (
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/turf/open/floor/grass/yel,
+/area/under/cave)
 "bBW" = (
 /turf/open/floor/metal/alt,
 /area/indoors/town/dwarfin)
@@ -16454,8 +16458,9 @@
 /turf/open/floor/dirt/road,
 /area/indoors/town/church/inquisition)
 "hSU" = (
-/obj/structure/lever/hidden/keep{
-	redstone_id = "CuckC"
+/obj/structure/lever/hidden{
+	redstone_id = "CuckC";
+	hidden_dc = 12
 	},
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/church/chapel)
@@ -16847,13 +16852,6 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/twig,
 /area/indoors/town/church/inquisition)
-"ieL" = (
-/obj/structure/door/fancy{
-	name = "Keep Entrance"
-	},
-/obj/effect/mapping_helpers/access/keyset/manor/general,
-/turf/open/floor/cobblerock,
-/area/indoors/town/manor/halls/s)
 "ifa" = (
 /obj/effect/decal/cleanable/debris/glass,
 /turf/open/floor/wood,
@@ -18409,6 +18407,10 @@
 	},
 /turf/open/floor/ruinedwood/turned/alt,
 /area/indoors/town/tavern)
+"iTA" = (
+/obj/structure/flora/grass/bush_meagre,
+/turf/open/openspace,
+/area/under/cave)
 "iTC" = (
 /obj/structure/window/openclose{
 	dir = 4
@@ -20369,6 +20371,12 @@
 "jNR" = (
 /turf/closed/mineral,
 /area/outdoors/rtfield)
+"jNU" = (
+/obj/machinery/light/fueled/wallfire/candle/blue{
+	pixel_y = -32
+	},
+/turf/open/floor/grass/red,
+/area/outdoors/woods_safe)
 "jOb" = (
 /obj/machinery/light/fueled/wallfire/candle/l{
 	pixel_x = 0;
@@ -20390,8 +20398,8 @@
 /turf/open/floor/herringbone,
 /area/indoors/town/smithy)
 "jPa" = (
-/obj/structure/lever/hidden{
-	redstone_id = "inquisition"
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "INQ1"
 	},
 /turf/closed/wall/mineral/stone/moss,
 /area/outdoors/woods_safe)
@@ -21088,8 +21096,8 @@
 /turf/open/floor/wood,
 /area/indoors/town/garrison)
 "khp" = (
-/obj/structure/lever/hidden{
-	redstone_id = "doorroom"
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "orphanage"
 	},
 /turf/closed/wall/mineral/stone,
 /area/indoors/town)
@@ -21244,12 +21252,25 @@
 "kkV" = (
 /turf/open/floor/grass/eora,
 /area/under/cavewet)
+"klc" = (
+/obj/structure/flora/grass,
+/obj/structure/fluff/walldeco/vinez,
+/turf/open/floor/twig{
+	dir = 4
+	},
+/area/under/cave)
 "kln" = (
 /obj/structure/table/wood/reinf_long{
 	dir = 4
 	},
 /turf/open/floor/wood,
 /area/outdoors/mountains)
+"klw" = (
+/obj/machinery/light/fueled/wallfire/candle/blue{
+	pixel_y = -32
+	},
+/turf/open/floor/dirt,
+/area/under/cave)
 "klH" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass,
@@ -24376,10 +24397,6 @@
 "lIJ" = (
 /turf/closed/wall/mineral/wooddark/vertical,
 /area/indoors/town/clocktower)
-"lJt" = (
-/obj/structure/fluff/walldeco/vinez,
-/turf/closed/mineral,
-/area/outdoors/woods_safe)
 "lJu" = (
 /obj/machinery/light/fueled/firebowl/standing{
 	pixel_x = 10;
@@ -24816,12 +24833,6 @@
 /obj/machinery/light/fueled/oven/east,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/clinic_large/feldsher)
-"lTF" = (
-/obj/machinery/light/fueled/wallfire/candle/blue{
-	pixel_y = -32
-	},
-/turf/closed/wall/mineral/stone,
-/area/indoors/town/church/inquisition)
 "lTP" = (
 /obj/machinery/light/fueled/torchholder{
 	dir = 4
@@ -29282,12 +29293,10 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/outdoors/town)
 "obl" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	name = "Inquisition Secret Door";
-	redstone_id = "inquisition";
-	vip_message = "Orphan";
-	vips = list("Orphan")
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "INQ1"
 	},
+/obj/structure/fluff/walldeco/vinez,
 /turf/closed/wall/mineral/stone/moss,
 /area/outdoors/woods_safe)
 "obs" = (
@@ -29981,11 +29990,8 @@
 /turf/open/floor/blocks/newstone/alt,
 /area/indoors/town/smithy)
 "ouZ" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	name = "Orphanage Secret Door";
-	redstone_id = "doorroom";
-	vip_message = "Orphan";
-	vips = list("Orphan")
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "orphanage"
 	},
 /turf/closed/wall/mineral/stone,
 /area/indoors/town)
@@ -30347,6 +30353,12 @@
 /obj/structure/fermentation_keg,
 /turf/open/floor/carpet/green,
 /area/indoors/town)
+"oCR" = (
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "INQ2"
+	},
+/turf/closed/mineral,
+/area/under/cave)
 "oDa" = (
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/water/cleanshallow,
@@ -31560,6 +31572,9 @@
 /obj/item/clothing/cloak/stole/purple,
 /turf/open/floor/blocks/newstone,
 /area/indoors/town/church)
+"peI" = (
+/turf/open/transparent/openspace,
+/area/outdoors/mountains)
 "peJ" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/wood{
@@ -37071,6 +37086,15 @@
 	},
 /turf/open/openspace,
 /area/outdoors/river)
+"rRN" = (
+/obj/structure/fluff/walldeco/vinez,
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "INQ2";
+	override_floor = 1;
+	floor_turf = /turf/open/floor/cobblerock
+	},
+/turf/closed/mineral,
+/area/under/cave)
 "rRO" = (
 /obj/structure/chair/wood/alt/chair3{
 	dir = 8
@@ -45903,7 +45927,7 @@
 /area/outdoors/town)
 "whF" = (
 /obj/structure/fluff/walldeco/vinez,
-/turf/closed/wall/mineral/stone,
+/turf/closed/wall/mineral/stone/moss,
 /area/outdoors/woods_safe)
 "wiy" = (
 /obj/structure/flora/grass/bush/wall/tall,
@@ -48296,7 +48320,7 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/manor/jester)
 "xmF" = (
-/obj/effect/mapping_helpers/secret_door_creator/keep{
+/obj/effect/mapping_helpers/secret_door_creator{
 	floor_turf = /turf/open/floor/ruinedwood/spiral;
 	override_floor = 1;
 	redstone_id = "CuckC"
@@ -112968,7 +112992,7 @@ fZM
 fZM
 fZM
 lrp
-ieL
+xZD
 mFi
 mFi
 hZn
@@ -120564,9 +120588,9 @@ aOv
 aOv
 aOv
 hJF
-lTF
+qgA
 upq
-hzx
+qFx
 wmF
 qFx
 qFx
@@ -120973,7 +120997,7 @@ xty
 wDX
 yjU
 yjU
-yjU
+qFx
 qFx
 wmF
 qFx
@@ -121176,7 +121200,7 @@ wDX
 wDX
 rZq
 rZq
-yjU
+wmF
 kTy
 rZq
 qFx
@@ -121378,7 +121402,7 @@ wDX
 wDX
 wDX
 wDX
-nUj
+rRN
 nUj
 rZq
 rZq
@@ -121579,9 +121603,9 @@ ibm
 kdt
 wDX
 hzx
-hzx
-wmF
-yjU
+klw
+oCR
+bBG
 hzx
 qFx
 wmF
@@ -121776,7 +121800,7 @@ aOv
 aOv
 aOv
 wjK
-lTF
+qgA
 ibm
 qFx
 hzx
@@ -160948,7 +160972,7 @@ mub
 fWd
 fWd
 upR
-lJt
+whF
 whF
 tXe
 upq
@@ -161150,7 +161174,7 @@ frz
 fWd
 sMC
 wVT
-lJt
+whF
 lED
 wDX
 qgA
@@ -161352,7 +161376,7 @@ ggA
 gPM
 fVF
 uoh
-lJt
+whF
 szR
 wDX
 qgA
@@ -161755,7 +161779,7 @@ mub
 luz
 fWd
 uoh
-sMC
+jNU
 jPa
 uMx
 wDX
@@ -161958,7 +161982,7 @@ fWd
 fWd
 ppr
 upR
-lJt
+whF
 sMC
 qNm
 qgA
@@ -162160,8 +162184,8 @@ ygh
 uoh
 sMC
 wxQ
-lJt
-qFx
+whF
+dbv
 eIh
 qgA
 vUF
@@ -201358,9 +201382,9 @@ jsm
 hub
 doS
 how
-iRL
+klc
 wRb
-eld
+hzx
 ukN
 xvL
 glm
@@ -201763,7 +201787,7 @@ cyp
 iRL
 ciE
 ciE
-ciE
+iTA
 ciE
 ciE
 glm
@@ -202560,7 +202584,7 @@ htI
 htI
 htI
 htI
-sCd
+peI
 hzx
 eqO
 cyp
@@ -203376,13 +203400,13 @@ ibm
 qgA
 qgA
 qgA
-cyp
-cyp
-cyp
-cyp
-cyp
-qFx
-qFx
+eIh
+eIh
+eIh
+eIh
+eIh
+eIh
+eIh
 qFx
 qFx
 qFx
@@ -203584,7 +203608,7 @@ oHS
 oHS
 oHS
 oHS
-qFx
+eIh
 qFx
 qFx
 qFx
@@ -203773,8 +203797,8 @@ htI
 qFx
 qFx
 qFx
-qFx
-sVI
+eIh
+qgA
 eWl
 ekr
 oHS
@@ -203786,7 +203810,7 @@ oHS
 oHS
 oHS
 oHS
-qFx
+eIh
 qFx
 qFx
 qFx
@@ -203976,19 +204000,19 @@ qFx
 qFx
 qFx
 qFx
+eIh
+eIh
+eIh
+eIh
 qFx
 qFx
 qFx
 qFx
 qFx
-qFx
-qFx
-qFx
-qFx
-qFx
-qFx
-qFx
-qFx
+eIh
+eIh
+eIh
+eIh
 qFx
 qFx
 qFx

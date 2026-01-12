@@ -7606,8 +7606,8 @@
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town)
 "gJz" = (
-/obj/structure/lever/hidden{
-	redstone_id = "doorroom"
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "orphanage"
 	},
 /turf/closed/wall/mineral/stone,
 /area/indoors/town/orphanage)
@@ -10211,11 +10211,8 @@
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town)
 "iQH" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	name = "Orphanage Secret Door";
-	vip_message = "Orphan";
-	vips = list("Orphan");
-	redstone_id = "doorroom"
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "orphanage"
 	},
 /turf/closed/wall/mineral/stone,
 /area/indoors/town/orphanage)
