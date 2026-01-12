@@ -38,6 +38,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/churchmarble,
 /area/under/tomb/indoors)
+"ba" = (
+/obj/effect/mapping_helpers/secret_door_creator{
+	name = "DF Secret Door";
+	redstone_id = "hctomb03sdC";
+	floor_turf = /turf/open/floor/churchrough
+	},
+/turf/closed/wall/mineral/decostone,
+/area/under/tomb/cave/spider)
 "bu" = (
 /obj/structure/fluff/statue/gargoyle,
 /obj/machinery/light/fueled/torchholder,
@@ -129,16 +137,6 @@
 /obj/effect/spawner/map_spawner/loot/weapon,
 /turf/open/floor/blocks/stonered/tiny,
 /area/under/tomb/indoors)
-"eg" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	vip_message = "Miner";
-	vips = list("Miner");
-	name = "DF Secret Door";
-	redstone_id = "hctomb03sdA";
-	floor_turf = /turf/open/floor/blocks/stonered/tiny
-	},
-/turf/closed/wall/mineral/craftstone,
-/area/under/tomb/indoors)
 "eB" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/blocks/stonered/tiny,
@@ -190,9 +188,6 @@
 	},
 /turf/open/water/cleanshallow,
 /area/under/tomb/cave/wet)
-"hb" = (
-/turf/open/openspace,
-/area/under/tomb/cave/wet)
 "hf" = (
 /obj/structure/fluff/railing/border{
 	dir = 5
@@ -216,9 +211,6 @@
 "ho" = (
 /turf/closed/wall/mineral/craftstone,
 /area/under/tomb/indoors)
-"hq" = (
-/turf/open/openspace,
-/area/under/tomb/cave)
 "hD" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -236,6 +228,9 @@
 	dir = 1
 	},
 /area/under/tomb/cave/spider)
+"hU" = (
+/turf/open/openspace,
+/area/under/tomb/cave)
 "iV" = (
 /obj/structure/bars,
 /turf/open/floor/metal/alt,
@@ -429,6 +424,14 @@
 /obj/item/natural/fur/rous,
 /turf/open/floor/cobblerock,
 /area/under/tomb/cave/wet)
+"pF" = (
+/obj/effect/mapping_helpers/secret_door_creator{
+	name = "DF Secret Door";
+	redstone_id = "hctomb03sdB";
+	floor_turf = /turf/open/floor/blocks/stonered/tiny
+	},
+/turf/closed/wall/mineral/craftstone,
+/area/under/tomb/indoors)
 "pJ" = (
 /turf/closed/wall/mineral/decostone,
 /area/under/tomb)
@@ -465,6 +468,14 @@
 	dir = 4
 	},
 /turf/open/floor/church,
+/area/under/tomb/indoors)
+"sA" = (
+/obj/effect/mapping_helpers/secret_door_creator{
+	name = "DF Secret Door";
+	redstone_id = "hctomb03sdA";
+	floor_turf = /turf/open/floor/blocks/stonered/tiny
+	},
+/turf/closed/wall/mineral/craftstone,
 /area/under/tomb/indoors)
 "sI" = (
 /obj/structure/fluff/railing/border,
@@ -679,6 +690,14 @@
 /area/under/tomb/indoors)
 "yi" = (
 /turf/open/floor/churchrough,
+/area/under/tomb/indoors)
+"yB" = (
+/obj/effect/mapping_helpers/secret_door_creator{
+	name = "DF Secret Door";
+	redstone_id = "hctomb03sdD";
+	floor_turf = /turf/open/floor/blocks/stonered/tiny
+	},
+/turf/closed/wall/mineral/craftstone,
 /area/under/tomb/indoors)
 "yO" = (
 /obj/structure/spider/stickyweb,
@@ -959,12 +978,6 @@
 /obj/structure/trap/spike,
 /turf/open/floor/blocks/stonered/tiny,
 /area/under/tomb/indoors)
-"IC" = (
-/obj/structure/floordoor{
-	redstone_id = "hctomb03drop"
-	},
-/turf/open/openspace,
-/area/under/tomb/cave/wet)
 "IU" = (
 /obj/structure/lever/hidden{
 	redstone_id = "hctomb03sdA"
@@ -1018,16 +1031,6 @@
 "JP" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/blocks/stonered/tiny,
-/area/under/tomb/indoors)
-"Ka" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	vip_message = "Miner";
-	vips = list("Miner");
-	name = "DF Secret Door";
-	redstone_id = "hctomb03sdB";
-	floor_turf = /turf/open/floor/blocks/stonered/tiny
-	},
-/turf/closed/wall/mineral/craftstone,
 /area/under/tomb/indoors)
 "Kx" = (
 /obj/structure/fluff/railing/border{
@@ -1229,6 +1232,9 @@
 /obj/item/reagent_containers/food/snacks/smallrat/dead,
 /turf/open/floor/blocks/stonered/tiny,
 /area/under/tomb/indoors)
+"Oe" = (
+/turf/open/openspace,
+/area/under/tomb/cave/wet)
 "Ou" = (
 /obj/item/clothing/pants/trou/leather{
 	pixel_x = -6
@@ -1312,21 +1318,17 @@
 "QL" = (
 /turf/closed/wall/mineral/craftstone,
 /area/under/tomb)
-"Rq" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	vip_message = "Miner";
-	vips = list("Miner");
-	name = "DF Secret Door";
-	redstone_id = "hctomb03sdD";
-	floor_turf = /turf/open/floor/blocks/stonered/tiny
-	},
-/turf/closed/wall/mineral/craftstone,
-/area/under/tomb/indoors)
 "RG" = (
 /obj/structure/fermentation_keg/random/beer,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/blocks/stonered/tiny,
 /area/under/tomb/indoors)
+"RH" = (
+/obj/structure/floordoor{
+	redstone_id = "hctomb03drop"
+	},
+/turf/open/openspace,
+/area/under/tomb/cave/wet)
 "RK" = (
 /obj/structure/kneestingers,
 /turf/open/water/river,
@@ -1399,16 +1401,6 @@
 "US" = (
 /turf/open/floor/blocks/stonered,
 /area/under/tomb/indoors)
-"Vd" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	vip_message = "Miner";
-	vips = list("Miner");
-	name = "DF Secret Door";
-	redstone_id = "hctomb03sdC";
-	floor_turf = /turf/open/floor/churchrough
-	},
-/turf/closed/wall/mineral/decostone,
-/area/under/tomb/cave/spider)
 "Vf" = (
 /turf/open/floor/naturalstone,
 /area/under/tomb/cave)
@@ -1467,6 +1459,9 @@
 "Wd" = (
 /turf/closed/wall/mineral/pipe,
 /area/under/tomb)
+"Wv" = (
+/turf/open/openspace,
+/area/under/tomb/indoors)
 "WC" = (
 /obj/structure/kneestingers{
 	icon_state = "glowshroom_A1"
@@ -1565,9 +1560,6 @@
 	},
 /obj/item/clothing/pants/trou,
 /turf/open/floor/blocks/stonered/tiny,
-/area/under/tomb/indoors)
-"ZJ" = (
-/turf/open/openspace,
 /area/under/tomb/indoors)
 "ZK" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -1868,7 +1860,7 @@ Fs
 Hy
 CE
 wj
-Vd
+ba
 Mu
 xh
 Ms
@@ -2621,8 +2613,8 @@ ho
 Pb
 yi
 sI
-ZJ
-ZJ
+Wv
+Wv
 Sn
 yi
 Eu
@@ -2637,8 +2629,8 @@ bu
 vS
 RG
 ho
-hb
-hb
+Oe
+Oe
 Jo
 Jo
 WO
@@ -2653,8 +2645,8 @@ ho
 yi
 tv
 sI
-ZJ
-ZJ
+Wv
+Wv
 Sn
 Eu
 yi
@@ -2669,9 +2661,9 @@ vS
 vS
 Pa
 ho
-hb
-hb
-hb
+Oe
+Oe
+Oe
 Jo
 Jo
 JE
@@ -2702,9 +2694,9 @@ vS
 cB
 ho
 VZ
-hb
-hb
-hb
+Oe
+Oe
+Oe
 EC
 Jo
 Jo
@@ -2715,11 +2707,11 @@ WO
 (6,1,2) = {"
 ho
 mU
-ZJ
-ZJ
-ZJ
-ZJ
-ZJ
+Wv
+Wv
+Wv
+Wv
+Wv
 vH
 Eu
 jP
@@ -2735,9 +2727,9 @@ Aw
 Aw
 ho
 ho
-hb
-hb
-hb
+Oe
+Oe
+Oe
 Jo
 Jo
 WO
@@ -2747,11 +2739,11 @@ WO
 (7,1,2) = {"
 ho
 Gm
-ZJ
-ZJ
-ZJ
-ZJ
-ZJ
+Wv
+Wv
+Wv
+Wv
+Wv
 vH
 Eu
 jP
@@ -2763,13 +2755,13 @@ fc
 ho
 LO
 LO
-Rq
+yB
 EF
 dK
 ho
-hb
-hb
-hb
+Oe
+Oe
+Oe
 Jo
 Jo
 EC
@@ -2779,11 +2771,11 @@ WO
 (8,1,2) = {"
 ho
 Pt
-ZJ
-ZJ
-ZJ
-ZJ
-ZJ
+Wv
+Wv
+Wv
+Wv
+Wv
 Dq
 yi
 xT
@@ -2800,9 +2792,9 @@ ho
 ho
 ho
 sK
-hb
-hb
-hb
+Oe
+Oe
+Oe
 Jo
 Jo
 WO
@@ -2832,9 +2824,9 @@ vK
 Lr
 eL
 vK
-IC
-IC
-IC
+RH
+RH
+RH
 Jo
 Jo
 AO
@@ -2845,8 +2837,8 @@ ho
 yi
 Di
 fI
-ZJ
-ZJ
+Wv
+Wv
 Sn
 yi
 Eu
@@ -2864,9 +2856,9 @@ vK
 It
 It
 vK
-IC
-IC
-IC
+RH
+RH
+RH
 EC
 Jo
 Jo
@@ -2877,8 +2869,8 @@ ho
 Pb
 yi
 fI
-ZJ
-ZJ
+Wv
+Wv
 Sn
 Eu
 Di
@@ -2896,9 +2888,9 @@ ho
 ho
 Qq
 tT
-hb
-hb
-hb
+Oe
+Oe
+Oe
 EC
 Jo
 WO
@@ -2928,9 +2920,9 @@ Lr
 Ar
 vS
 Qq
-hb
-hb
-hb
+Oe
+Oe
+Oe
 Jo
 EC
 WO
@@ -2948,7 +2940,7 @@ ho
 LO
 ho
 ho
-Ka
+pF
 lJ
 ho
 rN
@@ -2960,9 +2952,9 @@ AL
 vS
 Lr
 ho
-hb
-hb
-hb
+Oe
+Oe
+Oe
 Jo
 Jo
 Jo
@@ -2970,12 +2962,12 @@ WO
 "}
 (14,1,2) = {"
 Vf
-hq
-hq
-hq
-hq
-hq
-hq
+hU
+hU
+hU
+hU
+hU
+hU
 ho
 eB
 eB
@@ -2992,9 +2984,9 @@ vS
 vS
 Vi
 ho
-hb
-hb
-hb
+Oe
+Oe
+Oe
 Jo
 Jo
 Jo
@@ -3003,11 +2995,11 @@ Jo
 (15,1,2) = {"
 Vf
 Vf
-hq
-hq
-hq
-hq
-hq
+hU
+hU
+hU
+hU
+hU
 ho
 fN
 Lr
@@ -3024,9 +3016,9 @@ oh
 ho
 ho
 ho
-hb
-hb
-hb
+Oe
+Oe
+Oe
 Jo
 Jo
 Jo
@@ -3036,10 +3028,10 @@ Jo
 WG
 WG
 kP
-hq
-hq
-hq
-hq
+hU
+hU
+hU
+hU
 ho
 ZK
 cX
@@ -3047,18 +3039,18 @@ Ou
 fb
 EX
 ho
-ZJ
-ZJ
-ZJ
+Wv
+Wv
+Wv
 ho
 vS
 tC
 ho
 EC
 EC
-hb
-hb
-hb
+Oe
+Oe
+Oe
 Jo
 Jo
 Jo
@@ -3068,10 +3060,10 @@ Jo
 WG
 WG
 kP
-hq
-hq
-hq
-hq
+hU
+hU
+hU
+hU
 ho
 cu
 Xz
@@ -3079,19 +3071,19 @@ ao
 JP
 EX
 ho
-ZJ
-ZJ
-ZJ
+Wv
+Wv
+Wv
 ho
-eg
+sA
 IU
 ho
 EC
-hb
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
+Oe
 Jo
 Jo
 WO
@@ -3102,8 +3094,8 @@ WO
 WO
 WO
 Vf
-hq
-hq
+hU
+hU
 ho
 rV
 la
@@ -3111,20 +3103,20 @@ Tt
 cV
 Hb
 ho
-ZJ
-ZJ
-ZJ
+Wv
+Wv
+Wv
 IU
 EF
 ho
 EC
 EC
-hb
-hb
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
 Jo
 WO
 "}
@@ -3135,7 +3127,7 @@ WO
 WO
 Vf
 Vf
-hq
+hU
 ho
 TD
 zv
@@ -3150,12 +3142,12 @@ ho
 Le
 ho
 WO
-hb
-hb
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
 Jo
 Jo
 WO
@@ -3167,7 +3159,7 @@ WO
 WO
 WO
 Vf
-hq
+hU
 ho
 ho
 ho
@@ -3182,11 +3174,11 @@ ho
 ho
 ho
 WO
-hb
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
+Oe
 Jo
 Jo
 WO
@@ -3213,11 +3205,11 @@ WO
 WO
 WO
 WO
-hb
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
+Oe
 WO
 WO
 WO
@@ -3244,11 +3236,11 @@ WO
 WO
 WO
 WO
-hb
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
+Oe
 WO
 WO
 WO
@@ -3271,15 +3263,15 @@ YX
 YX
 WO
 WO
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
 WO
 WO
 WO
@@ -3297,19 +3289,19 @@ nU
 OR
 WO
 WO
-hb
+Oe
 YX
 YX
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
 WO
 WO
 WO
@@ -3326,21 +3318,21 @@ YX
 YX
 YX
 OR
-hb
+Oe
 WO
 WO
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
 WO
 WO
 WO
@@ -3355,22 +3347,22 @@ WO
 (26,1,2) = {"
 WO
 tN
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
 WO
 WO
 WO
 WO
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
+Oe
 WO
 WO
 WO
@@ -3388,8 +3380,8 @@ WO
 WO
 WO
 WO
-hb
-hb
+Oe
+Oe
 WO
 WO
 WO
@@ -3428,8 +3420,8 @@ WO
 WO
 WO
 WO
-hb
-hb
+Oe
+Oe
 YX
 YX
 Jo
@@ -3459,10 +3451,10 @@ WO
 WO
 WO
 WO
-hb
-hb
-hb
-hb
+Oe
+Oe
+Oe
+Oe
 Jo
 Jo
 Jo
