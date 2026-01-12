@@ -129,14 +129,6 @@
 /obj/effect/spawner/map_spawner/loot/weapon,
 /turf/open/floor/blocks/stonered/tiny,
 /area/under/tomb/indoors)
-"eg" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	name = "DF Secret Door";
-	redstone_id = "hctomb03sdA";
-	floor_turf = /turf/open/floor/blocks/stonered/tiny
-	},
-/turf/closed/wall/mineral/craftstone,
-/area/under/tomb/indoors)
 "eB" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/blocks/stonered/tiny,
@@ -274,6 +266,14 @@
 "jW" = (
 /turf/open/water/river,
 /area/under/tomb/cave/wet)
+"ko" = (
+/obj/effect/mapping_helpers/secret_door_creator{
+	name = "DF Secret Door";
+	redstone_id = "hctomb03sdB";
+	floor_turf = /turf/open/floor/blocks/stonered/tiny
+	},
+/turf/closed/wall/mineral/craftstone,
+/area/under/tomb/indoors)
 "kt" = (
 /obj/structure/kneestingers{
 	icon_state = "glowshroom2"
@@ -327,6 +327,14 @@
 "lJ" = (
 /obj/structure/lever/hidden{
 	redstone_id = "hctomb03sdB"
+	},
+/turf/closed/wall/mineral/craftstone,
+/area/under/tomb/indoors)
+"lV" = (
+/obj/effect/mapping_helpers/secret_door_creator{
+	name = "DF Secret Door";
+	redstone_id = "hctomb03sdD";
+	floor_turf = /turf/open/floor/blocks/stonered/tiny
 	},
 /turf/closed/wall/mineral/craftstone,
 /area/under/tomb/indoors)
@@ -533,6 +541,14 @@
 /obj/structure/fluff/walldeco/sparrowflag,
 /turf/closed/wall/mineral/craftstone,
 /area/under/tomb/indoors)
+"ub" = (
+/obj/effect/mapping_helpers/secret_door_creator{
+	name = "DF Secret Door";
+	redstone_id = "hctomb03sdC";
+	floor_turf = /turf/open/floor/churchrough
+	},
+/turf/closed/wall/mineral/decostone,
+/area/under/tomb/cave/spider)
 "us" = (
 /turf/closed/mineral/bedrock,
 /area/under/tomb)
@@ -612,6 +628,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/church,
 /area/under/tomb/cave/spider)
+"wk" = (
+/obj/effect/mapping_helpers/secret_door_creator{
+	name = "DF Secret Door";
+	redstone_id = "hctomb03sdA";
+	floor_turf = /turf/open/floor/blocks/stonered/tiny
+	},
+/turf/closed/wall/mineral/craftstone,
+/area/under/tomb/indoors)
 "wp" = (
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1017,14 +1041,6 @@
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/blocks/stonered/tiny,
 /area/under/tomb/indoors)
-"Ka" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	name = "DF Secret Door";
-	redstone_id = "hctomb03sdB";
-	floor_turf = /turf/open/floor/blocks/stonered/tiny
-	},
-/turf/closed/wall/mineral/craftstone,
-/area/under/tomb/indoors)
 "Kx" = (
 /obj/structure/fluff/railing/border{
 	dir = 9
@@ -1308,14 +1324,6 @@
 "QL" = (
 /turf/closed/wall/mineral/craftstone,
 /area/under/tomb)
-"Rq" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	name = "DF Secret Door";
-	redstone_id = "hctomb03sdD";
-	floor_turf = /turf/open/floor/blocks/stonered/tiny
-	},
-/turf/closed/wall/mineral/craftstone,
-/area/under/tomb/indoors)
 "RG" = (
 /obj/structure/fermentation_keg/random/beer,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1393,14 +1401,6 @@
 "US" = (
 /turf/open/floor/blocks/stonered,
 /area/under/tomb/indoors)
-"Vd" = (
-/obj/effect/mapping_helpers/secret_door_creator{
-	name = "DF Secret Door";
-	redstone_id = "hctomb03sdC";
-	floor_turf = /turf/open/floor/churchrough
-	},
-/turf/closed/wall/mineral/decostone,
-/area/under/tomb/cave/spider)
 "Vf" = (
 /turf/open/floor/naturalstone,
 /area/under/tomb/cave)
@@ -1860,7 +1860,7 @@ Fs
 Hy
 CE
 wj
-Vd
+ub
 Mu
 xh
 Ms
@@ -2755,7 +2755,7 @@ fc
 ho
 LO
 LO
-Rq
+lV
 EF
 dK
 ho
@@ -2940,7 +2940,7 @@ ho
 LO
 ho
 ho
-Ka
+ko
 lJ
 ho
 rN
@@ -3075,7 +3075,7 @@ ZJ
 ZJ
 ZJ
 ho
-eg
+wk
 IU
 ho
 EC

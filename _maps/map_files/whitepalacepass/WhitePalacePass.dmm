@@ -79,16 +79,6 @@
 /obj/structure/table/vtable,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town)
-"adP" = (
-/obj/machinery/light/fueled/wallfire/candle/blue,
-/obj/effect/mapping_helpers/secret_door_creator/inquisition{
-	redstone_id = "INQ5"
-	},
-/turf/closed/wall/mineral/stonebrick{
-	wallclimb = 1;
-	climbdiff = 1
-	},
-/area/indoors/town/church)
 "adQ" = (
 /obj/structure/window/openclose,
 /turf/open/floor/ruinedwood,
@@ -5963,13 +5953,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/tile/diamond/blue,
 /area/indoors/town/orphanage)
-"fMM" = (
-/obj/machinery/light/fueled/wallfire/candle/blue,
-/obj/effect/mapping_helpers/secret_door_creator/inquisition{
-	redstone_id = "INQ1"
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/under/cavewet)
 "fMR" = (
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/manor)
@@ -7565,12 +7548,6 @@
 /obj/structure/window/solid,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/dwarfin)
-"hcq" = (
-/obj/structure/lever/hidden/inquisition{
-	redstone_id = "INQ1"
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/under/cavewet)
 "hcv" = (
 /obj/structure/table/wood/crafted,
 /turf/open/floor/ruinedwood,
@@ -7600,13 +7577,6 @@
 /obj/structure/bookcase,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town)
-"heJ" = (
-/obj/machinery/light/fueled/wallfire/candle/blue/r,
-/obj/effect/mapping_helpers/secret_door_creator/inquisition{
-	redstone_id = "INQ2"
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/under/cavewet)
 "heO" = (
 /obj/structure/hotspring/border/five,
 /obj/structure/flora/hotspring_rocks/small/four,
@@ -8357,12 +8327,6 @@
 /obj/item/candle/yellow/lit/infinite/strong/skull,
 /turf/open/floor/cobblerock,
 /area/indoors/town/church)
-"hMy" = (
-/obj/structure/lever/hidden/inquisition{
-	redstone_id = "INQ2"
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/under/cavewet)
 "hMG" = (
 /obj/structure/fluff/railing/border{
 	dir = 10
@@ -10097,12 +10061,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/manor)
-"jAg" = (
-/obj/structure/lever/hidden/inquisition{
-	redstone_id = "INQ4"
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/under/cavewet)
 "jAq" = (
 /turf/closed/wall/mineral/stonebrick{
 	wallclimb = 1;
@@ -10764,6 +10722,15 @@
 	},
 /turf/open/floor/cobblerock/alt,
 /area/under/cavelava)
+"kkr" = (
+/obj/machinery/light/fueled/wallfire/candle/blue{
+	pixel_y = 4
+	},
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "orphanage"
+	},
+/turf/closed/wall/mineral/wooddark,
+/area/indoors/town/orphanage)
 "klq" = (
 /obj/structure/table/wood/crafted,
 /obj/item/alch/herb/rosa{
@@ -12361,13 +12328,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/indoors/town/garrison)
-"lBq" = (
-/obj/machinery/light/fueled/wallfire/candle/blue,
-/obj/effect/mapping_helpers/secret_door_creator/inquisition{
-	redstone_id = "INQ3"
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/under/cavewet)
 "lBE" = (
 /obj/item/clothing/face/cigarette,
 /obj/structure/bed/shit,
@@ -12609,6 +12569,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobblerock,
 /area/under/tomb/indoors/church)
+"lOo" = (
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "INQ1"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cavewet)
 "lOE" = (
 /turf/closed/wall/mineral/stonebrick{
 	wallclimb = 1;
@@ -12771,13 +12737,6 @@
 /obj/structure/table/wood/crafted,
 /turf/open/floor/grass/yel,
 /area/indoors/lich)
-"lXB" = (
-/obj/machinery/light/fueled/wallfire/candle/blue/l,
-/obj/effect/mapping_helpers/secret_door_creator/inquisition{
-	redstone_id = "INQ4"
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/under/cavewet)
 "lXE" = (
 /obj/effect/falling_leaves,
 /turf/open/water/marsh,
@@ -13230,6 +13189,15 @@
 	},
 /turf/open/floor/cobble,
 /area/indoors/lich)
+"mBJ" = (
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "INQ5"
+	},
+/turf/closed/wall/mineral/stonebrick{
+	wallclimb = 1;
+	climbdiff = 1
+	},
+/area/indoors/town/church)
 "mBO" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -14224,6 +14192,12 @@
 "nqe" = (
 /turf/open/floor/rooftop/green,
 /area/outdoors/town/roofs)
+"nqB" = (
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "INQ6"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cave)
 "nrA" = (
 /turf/open/floor/carpet/red,
 /area/indoors/town/magician)
@@ -14661,12 +14635,6 @@
 	dir = 1
 	},
 /area/indoors/town/manor)
-"nMJ" = (
-/obj/structure/lever/hidden/inquisition{
-	redstone_id = "INQ3"
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/under/cavewet)
 "nNj" = (
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/snow/patchy,
@@ -15199,6 +15167,12 @@
 	},
 /turf/closed/wall/mineral/decorstone,
 /area/under/cave)
+"ojV" = (
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "INQ2"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cavewet)
 "oke" = (
 /obj/structure/vertical_gearbox,
 /obj/machinery/light/fueled/wallfire/candle/blue,
@@ -15380,15 +15354,6 @@
 	},
 /turf/open/floor/tile,
 /area/indoors/town/shop)
-"osQ" = (
-/obj/structure/lever/hidden/inquisition{
-	redstone_id = "INQ5"
-	},
-/turf/closed/wall/mineral/stonebrick{
-	wallclimb = 1;
-	climbdiff = 1
-	},
-/area/indoors/town/church)
 "ota" = (
 /turf/closed/wall/mineral/wooddark,
 /area/indoors/town/manor)
@@ -15866,6 +15831,13 @@
 /obj/machinery/light/fueled/wallfire/candle/r,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/clinic_large)
+"oPc" = (
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "INQ6"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cave)
 "oPm" = (
 /obj/structure/winch{
 	name = "White Palace Pass Gate Winch";
@@ -16532,6 +16504,13 @@
 	},
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/clocktower)
+"pwd" = (
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "INQ2"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cavewet)
 "pwf" = (
 /obj/structure/stairs/stone/church{
 	dir = 1
@@ -17454,12 +17433,6 @@
 /obj/structure/bars/cemetery,
 /turf/open/floor/snow,
 /area/outdoors/rtfield/safe)
-"qlF" = (
-/obj/structure/lever/hidden/inquisition{
-	redstone_id = "INQ6"
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/under/cave)
 "qlO" = (
 /obj/structure/table/wood/crafted,
 /turf/open/floor/ruinedwood/turned/darker,
@@ -18707,6 +18680,12 @@
 /obj/effect/falling_leaves,
 /turf/open/floor/grass/yel,
 /area/outdoors/rtfield)
+"rss" = (
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "INQ4"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cavewet)
 "rsu" = (
 /obj/structure/fluff/railing/border{
 	dir = 9
@@ -19088,12 +19067,6 @@
 	},
 /turf/open/floor/tile/masonic/single,
 /area/indoors/town/manor)
-"rNr" = (
-/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
-	redstone_id = "orphanage"
-	},
-/turf/closed/wall/mineral/wooddark/horizontal,
-/area/indoors/town/orphanage)
 "rNV" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
 /turf/open/floor/ruinedwood/darker,
@@ -19568,13 +19541,6 @@
 /obj/effect/falling_sakura,
 /turf/open/floor/cobblerock/alt,
 /area/outdoors/rtfield)
-"skk" = (
-/obj/machinery/light/fueled/wallfire/candle/blue,
-/obj/effect/mapping_helpers/secret_door_creator/inquisition{
-	redstone_id = "INQ6"
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/under/cave)
 "skm" = (
 /obj/item/paint_palette/filled,
 /obj/item/paint_brush,
@@ -20141,6 +20107,12 @@
 /obj/structure/door/red,
 /turf/open/floor/tile/kitchen,
 /area/indoors/lich)
+"sOD" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "orphanage"
+	},
+/turf/closed/wall/mineral/wooddark/horizontal,
+/area/indoors/town/orphanage)
 "sOQ" = (
 /obj/structure/fake_machine/scomm{
 	pixel_y = -32
@@ -20228,6 +20200,13 @@
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/churchrough,
 /area/indoors/town/church)
+"sUt" = (
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "INQ4"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cavewet)
 "sUI" = (
 /obj/machinery/light/fueled/firebowl/church{
 	pixel_x = -2;
@@ -22094,6 +22073,12 @@
 /obj/structure/fake_machine/scomm/r,
 /turf/open/floor/blocks,
 /area/indoors/town/clinic_large)
+"uJq" = (
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "INQ3"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cavewet)
 "uJN" = (
 /turf/closed/indestructible/wooddark,
 /area/under/cave)
@@ -22556,6 +22541,16 @@
 /obj/machinery/light/fueled/wallfire/candle/weak/l,
 /turf/open/floor/carpet/red,
 /area/indoors/town/orphanage)
+"vhU" = (
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "INQ5"
+	},
+/turf/closed/wall/mineral/stonebrick{
+	wallclimb = 1;
+	climbdiff = 1
+	},
+/area/indoors/town/church)
 "vic" = (
 /obj/structure/table/wood/counter,
 /turf/open/floor/ruinedwood/spiral,
@@ -22608,6 +22603,13 @@
 	},
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town)
+"vlJ" = (
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "INQ1"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cavewet)
 "vlR" = (
 /obj/structure/ladder,
 /turf/open/floor/metal,
@@ -23625,6 +23627,13 @@
 	climbdiff = 1
 	},
 /area/indoors/town/dwarfin)
+"wbh" = (
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "INQ3"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cavewet)
 "wbi" = (
 /obj/structure/fluff/signage{
 	pixel_y = 18;
@@ -24213,15 +24222,6 @@
 /obj/structure/fake_machine/scomm/l,
 /turf/open/floor/carpet/purple,
 /area/indoors/town)
-"wCw" = (
-/obj/machinery/light/fueled/wallfire/candle/blue{
-	pixel_y = 4
-	},
-/obj/structure/lever/hidden/thieves_guild{
-	redstone_id = "orphanage"
-	},
-/turf/closed/wall/mineral/wooddark,
-/area/indoors/town/orphanage)
 "wCJ" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -47664,8 +47664,8 @@ bfB
 bfB
 jLk
 jLk
-nMJ
-lBq
+uJq
+wbh
 jLk
 jLk
 nJJ
@@ -49504,7 +49504,7 @@ jLk
 jLk
 bfB
 bfB
-heJ
+pwd
 bfB
 jLk
 bfB
@@ -49706,7 +49706,7 @@ bfB
 bfB
 bfB
 bfB
-hMy
+ojV
 bfB
 jLk
 bfB
@@ -50292,7 +50292,7 @@ bfB
 bfB
 bfB
 bfB
-jAg
+rss
 bfB
 bfB
 eCg
@@ -50494,7 +50494,7 @@ jLk
 bfB
 bfB
 bfB
-lXB
+sUt
 bfB
 bfB
 bfB
@@ -50503,8 +50503,8 @@ eCg
 bfB
 bfB
 jLk
-hcq
-fMM
+lOo
+vlJ
 jLk
 jLk
 vEK
@@ -82570,8 +82570,8 @@ fHb
 fHb
 fHb
 fHb
-osQ
-adP
+mBJ
+vhU
 fHb
 mJk
 gbu
@@ -90458,8 +90458,8 @@ mJk
 ujD
 xPM
 lwd
-qlF
-skk
+nqB
+oPc
 irt
 ujD
 xPM
@@ -136300,7 +136300,7 @@ aSR
 lUx
 dVA
 dVA
-rNr
+sOD
 lUx
 lUx
 dVA
@@ -136502,7 +136502,7 @@ lUx
 fIc
 tsv
 dVA
-wCw
+kkr
 dVA
 lUx
 lUx

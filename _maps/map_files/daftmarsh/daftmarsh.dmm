@@ -3217,6 +3217,12 @@
 "cMz" = (
 /turf/open/floor/wood,
 /area/indoors/town/steward)
+"cMG" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "orphanage"
+	},
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/orphanage)
 "cMW" = (
 /obj/structure/chair/wood/alt{
 	dir = 4
@@ -7605,12 +7611,6 @@
 /obj/structure/chair/stool,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town)
-"gJz" = (
-/obj/structure/lever/hidden/thieves_guild{
-	redstone_id = "orphanage"
-	},
-/turf/closed/wall/mineral/stone,
-/area/indoors/town/orphanage)
 "gJN" = (
 /obj/structure/fluff/walldeco/church/line,
 /obj/structure/fluff/statue/astrata,
@@ -9832,6 +9832,12 @@
 /obj/effect/mapping_helpers/access/keyset/manor/general,
 /turf/open/floor/blocks/newstone/alt,
 /area/indoors/town/manor)
+"izn" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "orphanage"
+	},
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/orphanage)
 "izo" = (
 /obj/structure/stairs,
 /turf/open/floor/woodturned/nosmooth,
@@ -10210,12 +10216,6 @@
 /obj/structure/stairs,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town)
-"iQH" = (
-/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
-	redstone_id = "orphanage"
-	},
-/turf/closed/wall/mineral/stone,
-/area/indoors/town/orphanage)
 "iQK" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
@@ -117101,8 +117101,8 @@ jxt
 hBQ
 hBQ
 jxt
-iQH
-gJz
+izn
+cMG
 jxt
 fkL
 fkL

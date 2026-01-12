@@ -2502,12 +2502,6 @@
 "biA" = (
 /turf/open/floor/carpet,
 /area/indoors/town/theatre)
-"bjg" = (
-/obj/structure/lever/hidden/thieves_guild{
-	redstone_id = "orphanage_1"
-	},
-/turf/closed/wall/mineral/stone,
-/area/indoors/town/orphanage)
 "bjY" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
 /obj/effect/landmark/start/villager{
@@ -12553,10 +12547,6 @@
 "giI" = (
 /obj/structure/fermentation_keg/random/water,
 /turf/open/floor/ruinedwood/spiral,
-/area/indoors/town/orphanage)
-"giL" = (
-/obj/effect/mapping_helpers/secret_door_creator/thieves_guild,
-/turf/closed/wall/mineral/stone,
 /area/indoors/town/orphanage)
 "giU" = (
 /obj/machinery/tanningrack,
@@ -25650,6 +25640,12 @@
 "mKk" = (
 /turf/closed/wall/mineral/craftstone,
 /area/outdoors/river)
+"mKm" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "thieves_guild"
+	},
+/turf/closed/wall/mineral/craftstone,
+/area/under/town/sewer)
 "mKu" = (
 /obj/structure/rack/shelf/biggest,
 /turf/open/floor/ruinedwood/darker,
@@ -27939,12 +27935,6 @@
 /obj/structure/bars/cemetery,
 /turf/open/floor/snow/rough,
 /area/outdoors/town)
-"nQl" = (
-/obj/structure/lever/hidden/thieves_guild{
-	redstone_id = "thieves_guild"
-	},
-/turf/closed/wall/mineral/craftstone,
-/area/under/town/sewer)
 "nQo" = (
 /obj/structure/door/violet{
 	name = "Archivist's Chambers"
@@ -29983,6 +29973,12 @@
 	},
 /turf/open/floor/hexstone,
 /area/indoors/town/garrison)
+"oLX" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "orphanage_1"
+	},
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/orphanage)
 "oMd" = (
 /obj/structure/chair/wood/alt/chair_noble/red{
 	dir = 8
@@ -31788,6 +31784,12 @@
 /obj/structure/rack/shelf/biggest,
 /turf/open/floor/grass/cold,
 /area/indoors/soilsons)
+"pEd" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "orphanage_2"
+	},
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/orphanage)
 "pEg" = (
 /obj/structure/bed/wool,
 /obj/item/bedsheet/cloth,
@@ -33844,6 +33846,10 @@
 "qHb" = (
 /turf/open/floor/herringbone,
 /area/indoors/soilsons)
+"qHh" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild,
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/orphanage)
 "qHw" = (
 /turf/open/floor/tile,
 /area/indoors/town/magician)
@@ -40690,12 +40696,6 @@
 /obj/structure/door/fancy,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town)
-"tWr" = (
-/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
-	redstone_id = "thieves_guild"
-	},
-/turf/closed/wall/mineral/craftstone,
-/area/under/town/sewer)
 "tWs" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/needle,
@@ -41699,12 +41699,6 @@
 /obj/machinery/light/fueled/wallfire/candle/r,
 /turf/open/floor/blocks,
 /area/indoors/town/smithy)
-"uyH" = (
-/obj/structure/lever/hidden/thieves_guild{
-	redstone_id = "orphanage_2"
-	},
-/turf/closed/wall/mineral/stone,
-/area/indoors/town/orphanage)
 "uzq" = (
 /obj/machinery/light/fueled/wallfire{
 	pixel_y = -32
@@ -42276,6 +42270,12 @@
 "uNm" = (
 /turf/open/floor/cobblerock/snow,
 /area/under/cave)
+"uNO" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "thieves_guild"
+	},
+/turf/closed/wall/mineral/craftstone,
+/area/under/town/sewer)
 "uNV" = (
 /obj/structure/table/wood/reinforced_alt{
 	dir = 8
@@ -57699,8 +57699,8 @@ woz
 woz
 woz
 woz
-nQl
-tWr
+mKm
+uNO
 woz
 woz
 woz
@@ -140777,8 +140777,8 @@ xmk
 xmk
 xmk
 xmk
-giL
-bjg
+qHh
+oLX
 xmk
 xmk
 xmk
@@ -141183,7 +141183,7 @@ wGg
 wGg
 bio
 wGg
-uyH
+pEd
 kWl
 tyB
 kWl
@@ -141385,7 +141385,7 @@ wGg
 wGg
 rwx
 wGg
-giL
+qHh
 kWl
 qcE
 kWl
