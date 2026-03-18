@@ -1,6 +1,6 @@
 /datum/component/rot
 	var/amount = 0
-	var/rot_amount_per_process = 10 //1 second
+	var/rot_amount_per_process = 1 SECONDS
 	var/last_process = 0
 	var/datum/looping_sound/fliesloop/soundloop
 
@@ -64,7 +64,7 @@
 
 	var/findonerotten = FALSE
 	var/shouldupdate = FALSE
-	for(var/obj/item/bodypart/B in C.bodyparts)
+	for(var/obj/item/bodypart/B as anything in C.bodyparts)
 		if(!B.skeletonized && B.is_organic_limb())
 			if(!B.rotted)
 				if(amount > 25 MINUTES)
@@ -104,7 +104,7 @@
 		C.update_body()
 
 /datum/component/rot/simple
-	rot_amount_per_process = 5
+	rot_amount_per_process = 0.5 SECONDS
 
 /datum/component/rot/simple/process()
 	..()
@@ -124,7 +124,7 @@
 		return L.dust(drop_items=TRUE)
 
 /datum/component/rot/gibs
-	amount = 0.005
+	rot_amount_per_process = 2 SECONDS
 
 /datum/component/rot/stinky_person
 	soundloop = null

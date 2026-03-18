@@ -1,6 +1,7 @@
 /datum/patron/inhumen
 	abstract_type = /datum/patron/inhumen
 	associated_faith = /datum/faith/inhumen_pantheon
+	healing_miracle = /datum/action/cooldown/spell/healing/profane
 
 	confess_lines = list(
 		"PSYDON AND HIS CHILDREN ARE THE DEMIURGE!",
@@ -38,6 +39,7 @@
 		/mob/living/carbon/human/proc/draw_sigil,
 		/mob/living/carbon/human/proc/praise,
 	)
+	healing_miracle = /datum/action/cooldown/spell/healing/profane/zizo
 
 /datum/patron/inhumen/graggar
 	name = GRAGGAR
@@ -55,6 +57,7 @@
 		"GRAGGAR BRINGS UNHOLY DESTRUCTION!"
 	)
 	storyteller = /datum/storyteller/graggar
+	healing_miracle = /datum/action/cooldown/spell/healing/profane/graggar
 
 /datum/patron/inhumen/matthios
 	name = MATTHIOS
@@ -72,6 +75,7 @@
 		"MATTHIOS IS MY LORD, I SHALL BE HIS MARTYR!",
 	)
 	storyteller = /datum/storyteller/matthios
+	healing_miracle = /datum/action/cooldown/spell/healing/profane/matthios
 
 /datum/patron/inhumen/baotha
 	name = BAOTHA
@@ -89,6 +93,7 @@
 		"BAOTHA'S WHISPERS CALM MY MIND!",
 	)
 	storyteller = /datum/storyteller/baotha
+	healing_miracle = /datum/action/cooldown/spell/healing/profane/baotha
 
 /// Maniac Patron - Their mind is broken by secrets of Zizo/Graggar combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
 /datum/patron/inhumen/graggar_zizo

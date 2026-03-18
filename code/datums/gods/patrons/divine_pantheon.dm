@@ -73,6 +73,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/astrata
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/astrata
+	healing_miracle = /datum/action/cooldown/spell/healing/astrata
 
 /datum/patron/divine/noc
 	name = NOC
@@ -91,6 +92,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/noc
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/noc
+	healing_miracle = /datum/action/cooldown/spell/healing/noc
 
 /datum/patron/divine/dendor
 	name = DENDOR
@@ -109,6 +111,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/dendor
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/dendor
+	healing_miracle = /datum/action/cooldown/spell/healing/dendor
 
 /datum/patron/divine/abyssor
 	name = ABYSSOR
@@ -127,6 +130,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/abyssor
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/abyssor
+	healing_miracle = /datum/action/cooldown/spell/healing/abyssor
 
 /datum/patron/divine/necra
 	name = NECRA
@@ -145,6 +149,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/necra
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/necra
+	healing_miracle = /datum/action/cooldown/spell/healing/necra
 
 /datum/patron/divine/ravox
 	name = RAVOX
@@ -163,6 +168,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/ravox
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/ravox
+	healing_miracle = /datum/action/cooldown/spell/healing/ravox
 
 /datum/patron/divine/xylix
 	name = XYLIX
@@ -188,6 +194,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/xylix
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/xylix
+	healing_miracle = /datum/action/cooldown/spell/healing/xylix
 
 /datum/patron/divine/pestra
 	name = PESTRA
@@ -206,6 +213,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/pestra
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/pestra
+	healing_miracle = /datum/action/cooldown/spell/healing/pestra
 
 /datum/patron/divine/pestra/preference_accessible(datum/preferences/prefs)
 	. = ..()
@@ -232,6 +240,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/malum
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/malum
+	healing_miracle = /datum/action/cooldown/spell/healing/malum
 
 /datum/patron/divine/eora
 	name = EORA
@@ -250,3 +259,4 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/eora
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/eora
+	healing_miracle = /datum/action/cooldown/spell/healing/eora

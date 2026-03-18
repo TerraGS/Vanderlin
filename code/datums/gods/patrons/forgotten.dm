@@ -9,6 +9,7 @@
 	boons = "None. His power is divided."
 
 	associated_faith = /datum/faith/psydon
+	healing_miracle = /datum/action/cooldown/spell/healing/psydon
 
 	confess_lines = list(
 		"THERE IS ONLY ONE TRUE GOD!",
