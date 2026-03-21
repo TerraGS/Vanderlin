@@ -23,7 +23,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	slot_flags = ITEM_SLOT_HIP
 	swingsound = BLADEWOOSH_MED
-	associated_skill = /datum/skill/combat/swords
+	associated_skill = /datum/attribute/skill/combat/swords
 	pickup_sound = "unsheathe_sword"
 	equip_sound = 'sound/foley/dropsound/holster_sword.ogg'
 	drop_sound = 'sound/foley/dropsound/blade_drop.ogg'
@@ -32,6 +32,8 @@
 	melting_material = /datum/material/steel
 	melt_amount = 75
 	sellprice = 30
+	grid_height = 96
+	grid_width = 64
 
 /obj/item/weapon/sword/getonmobprop(tag)
 	. = ..()
@@ -120,6 +122,8 @@
 	desc = "A trustworthy blade design, the first dedicated tool of war since before the age of history."
 	icon_state = "sword1"
 	sellprice = 30
+
+	weapon_special = /datum/special_intent/shin_swipe
 
 /obj/item/weapon/sword/arming/Initialize()
 	. = ..()
@@ -290,8 +294,8 @@
 
 //................ Shalal Sabre ............... //
 /obj/item/weapon/sword/sabre/shalal
-	name = "shalal sabre"
-	desc = "A fine weapon of Zaladin origin in the style of the Shalal tribesfolk, renowned for their defiance against magic and mastery of mounted swordsmanship."
+	name = "Zaladin riding sabre"
+	desc = "A fine weapon of Zaladin origin, used by those with mastery of mounted swordsmanship."
 	icon = 'icons/roguetown/weapons/64/swords.dmi'
 	icon_state = "marlin"
 	lefthand_file = 'icons/mob/inhands/weapons/roguebig_lefthand.dmi'
@@ -475,6 +479,8 @@
 	swingsound = BLADEWOOSH_SMALL
 	SET_BASE_PIXEL(-16, -16)
 	dropshrink = 0.8
+
+	weapon_special = /datum/special_intent/piercing_lunge
 
 /obj/item/weapon/sword/rapier/getonmobprop(tag)
 	. = ..()
@@ -680,6 +686,8 @@
 	grid_height = 96
 	grid_width = 64
 
+	weapon_special = /datum/special_intent/side_sweep
+
 /obj/item/weapon/sword/long/shotel
 	name = "steel shotel"
 	icon_state = "shotel_steel"
@@ -853,7 +861,7 @@
 
 /obj/item/weapon/sword/long/vlord // this sprite is a one handed sword, not a longsword.
 	icon_state = "vlord"
-	name = "\improper Jaded Fang"
+	name = "\proper the Jaded Fang"
 	desc = "An ancestral long blade with an ominous glow, serrated with barbs along its edges. Stained with a strange green tint."
 	force_wielded = DAMAGE_GREATSWORD_WIELD
 	sellprice = 0
@@ -995,6 +1003,8 @@
 	slot_flags = ITEM_SLOT_BACK
 	sellprice = 90
 
+	weapon_special = /datum/special_intent/greatsword_swing
+
 /obj/item/weapon/sword/long/greatsword/getonmobprop(tag)
 	. = ..()
 	if(tag)
@@ -1011,7 +1021,7 @@
 //................ Psydonian Greatsword ............... //
 /obj/item/weapon/sword/long/greatsword/psydon
 	name = "psydonian greatsword"
-	desc = "A mighty silver greatsword made to strike fear into the heart of even archdevils."
+	desc = "A mighty silver greatsword made to strike fear into the heart of even Archdevils."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psygsword"
 	force_wielded = DAMAGE_LONGSWORD_WIELD
@@ -1049,7 +1059,7 @@
 
 /obj/item/weapon/sword/long/broadsword/psy
 	name = "old psydonian broadsword"
-	desc = "Even the most ignorant of zealots know that the holy silver loses its properties when not blessed by Adjudicators and Priests of the Holy See for an extended period of time. Its edge remains as lethal as ever, however."
+	desc = "Even the most ignorant of zealots know that the holy silver loses its properties when not blessed by Priests for an extended period of time. Its edge remains as lethal as ever, however."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psybroadsword"
 	melting_material = /datum/material/silver
@@ -1074,7 +1084,7 @@
 
 /obj/item/weapon/sword/long/greatsword/psydon/unforgotten
 	name = "unforgotten blade"
-	desc = "High Inquisitor Archibald once recorded an expedition of seven brave Adjudicators into eastern snow-felled wastes to root out evil. Its leader, Holy Ordinator Guillemin, was said to have held on for seven daes and seven nights against darksteel-clad heretics before Psydon acknowledged his endurance. Nothing but his blade remained - his psycross wrapped around its hilt in remembrance."
+	desc = "High Inquisitor Archibald once recorded an expedition of seven brave order members into eastern snow-felled wastes to root out evil. Its leader, Holy Ordinator Guillemin, was said to have held on for seven daes and seven nights against darksteel-clad heretics before Psydon acknowledged his endurance. Nothing but his blade remained - his psycross wrapped around its hilt in remembrance."
 	icon_state = "forgottenblade"
 
 /obj/item/weapon/sword/long/greatsword/psydon/unforgotten/Initialize()
@@ -1164,7 +1174,7 @@
 
 /obj/item/weapon/sword/long/greatsword/claymore/iron
 	name = "iron claymore"
-	desc = "A large sword originating from the north, commonly used by ravoxians."
+	desc = "A large sword originating from the north, commonly used by Ravoxians."
 	icon_state = "ironclaymore"
 	force_wielded = DAMAGE_LONGSWORD_WIELD
 	max_blade_int = 200
@@ -1188,7 +1198,7 @@
 
 /obj/item/weapon/sword/long/greatsword/claymore
 	name = "steel claymore"
-	desc = "A steel variant of the standard Claymore."
+	desc = "A steel variant of the standard claymore."
 	icon_state = "steelclaymore"
 	gripped_intents = list(SWORD_CUT, SWORD_THRUST, SWORD_STRIKE, SWDLONG_CHOP)
 	minstr = 10
@@ -1630,15 +1640,15 @@
 			else
 				I = M.get_inactive_held_item()
 		if(user.mind)
-			skill_diff += (user.get_skill_level(/datum/skill/combat/swords, TRUE))	//You check your sword skill
+			skill_diff += (GET_MOB_SKILL_VALUE_OLD(user, /datum/attribute/skill/combat/swords))	//You check your sword skill
 		if(M.mind)
-			skill_diff -= (M.get_skill_level(/datum/skill/combat/wrestling, TRUE))	//They check their wrestling skill to stop the weapon from being pulled.
+			skill_diff -= (GET_MOB_SKILL_VALUE_OLD(M, /datum/attribute/skill/combat/wrestling))	//They check their wrestling skill to stop the weapon from being pulled.
 		user.adjust_stamina(-rand(3,8))
-		var/probby = clamp((((3 + (((user.STASTR - M.STASTR)/4) + skill_diff)) * 10)), 5, 95)
+		var/probby = clamp((((3 + (((GET_MOB_ATTRIBUTE_VALUE(user, STAT_STRENGTH) - GET_MOB_ATTRIBUTE_VALUE(M, STAT_STRENGTH))/4) + skill_diff)) * 10)), 5, 95)
 		if(I)
 			if(M.mind)
 				if(I.associated_skill)
-					probby -= M.get_skill_level(I.associated_skill, TRUE) * 5
+					probby -= GET_MOB_SKILL_VALUE_OLD(M, I.associated_skill) * 5
 			var/obj/item/mainhand = user.get_active_held_item()
 			var/obj/item/offhand = user.get_inactive_held_item()
 			if(HAS_TRAIT(src, TRAIT_DUALWIELDER) && istype(offhand, mainhand))
@@ -1678,7 +1688,7 @@
 
 /obj/item/weapon/sword/long/martyr
 	name = "martyr sword"
-	desc = "A relic from the Holy See's own vaults. It simmers with godly energies, and will only yield to the hands of those who have taken the Oath."
+	desc = "A relic passed down through generations of worshippers. It simmers with godly energies, and will only yield to the hands of those who have taken the Oath."
 	icon = 'icons/roguetown/weapons/64/swords.dmi'
 	icon_state = "martyrsword"
 	item_state = "martyrsword"

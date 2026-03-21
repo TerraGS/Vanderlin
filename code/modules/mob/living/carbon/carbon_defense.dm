@@ -156,7 +156,7 @@
 	var/obj/item/bodypart/affecting
 	var/selzone = user.zone_selected
 	if(cmode && !accurate)
-		selzone = accuracy_check(user.zone_selected, user, src, /datum/skill/combat/wrestling, user.used_intent)
+		selzone = accuracy_check(user.zone_selected, user, src, /datum/attribute/skill/combat/wrestling, user.used_intent)
 	affecting = get_bodypart(check_zone(selzone))
 	if(selzone && affecting)
 		if(selzone in affecting.grabtargets)
@@ -229,7 +229,7 @@
 				if(get_dist(user, src) <= 1)	//people with TK won't get smeared with blood
 					user.add_mob_blood(src)
 				var/splatter_dir = get_dir(user, src)
-				new /obj/effect/temp_visual/dir_setting/bloodsplatter(loc, splatter_dir)
+				new /obj/effect/temp_visual/dir_setting/bloodsplatter(loc, splatter_dir, get_blood_type())
 				if(affecting.body_zone == BODY_ZONE_HEAD)
 					if(wear_mask)
 						wear_mask.add_mob_blood(src)
