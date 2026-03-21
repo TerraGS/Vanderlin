@@ -2,8 +2,6 @@
 /datum/devotion
 	var/mob/living/carbon/human/holder_mob = null
 
-	var/datum/patron/patron = null
-
 	var/devotion = 0
 	var/max_devotion = 1000
 	var/progression = 0
@@ -58,7 +56,6 @@
 		SSticker.OnRoundstart(CALLBACK(src, PROC_REF(initialize_hud)))
 	for(var/trait as anything in traits)
 		ADD_TRAIT(holder_mob, trait, DEVOTION_TRAIT)
-	patron = holder_mob.patron
 	for(var/datum/action/miracle as anything in miracles_extra)
 		grant_miracle(miracle)
 	add_verb(holder_mob, list(/mob/living/carbon/human/proc/devotionreport, /mob/living/carbon/human/proc/clericpray))

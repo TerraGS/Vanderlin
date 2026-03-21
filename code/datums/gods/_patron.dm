@@ -41,9 +41,6 @@ GLOBAL_LIST_EMPTY(prayers)
 	/// If the patron has a specific specie worshipping them.
 	var/list/allowed_races
 
-	/// Which healing miracle is granted by this patron
-	var/datum/action/healing_miracle = /datum/action/cooldown/spell/healing
-
 	var/datum/storyteller/storyteller
 
 /datum/patron/proc/preference_accessible(datum/preferences/prefs)

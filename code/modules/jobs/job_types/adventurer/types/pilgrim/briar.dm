@@ -299,7 +299,7 @@
 	unlocks_recipe = /datum/repeatable_crafting_recipe/dendor/sacrifice_shaping
 
 /obj/item/dendor_blessing/lording/check_blessing_requirements(mob/living/user)
-	if(!user.get_spell(/datum/action/cooldown/spell/healing))
+	if(!user.get_spell(/datum/action/cooldown/spell/healing/dendor))
 		to_chat(user, span_warning("My faith to Dendor is insufficient..."))
 		return FALSE
 	return ..()
@@ -311,7 +311,7 @@
 	user.emote("rage", forced = TRUE)
 	ADD_TRAIT(user, TRAIT_CRITICAL_RESISTANCE, TRAIT_GENERIC)
 	user.physiology.pain_mod *= 0.6
-	user.remove_spell(/datum/action/cooldown/spell/healing)
+	user.remove_spell(/datum/action/cooldown/spell/healing/dendor)
 	user.add_spell(/datum/action/cooldown/spell/undirected/shapeshift/troll_form)
 	to_chat(user, span_warning("I no longer care for mending wounds, let the lords of the forest be known!"))
 
