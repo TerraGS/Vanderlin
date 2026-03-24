@@ -160,7 +160,7 @@
 
 /datum/action/cooldown/spell/healing/psydon
 	name = "Enduring Spirit"
-	healing_flags = (MIRACLE_HEAL_TOX|MIRACLE_HEAL_OXY)
+	healing_flags = MIRACLE_HEAL_TOX|MIRACLE_HEAL_OXY
 	wound_modifier = 0.35
 
 /datum/action/cooldown/spell/healing/psydon/cast(mob/living/cast_on)
@@ -171,7 +171,7 @@
 
 /datum/action/cooldown/spell/healing/astrata
 	name = "Healing Radiance"
-	healing_flags = (MIRACLE_HEAL_TOX|MIRACLE_HEAL_OXY)
+	healing_flags = MIRACLE_HEAL_TOX|MIRACLE_HEAL_OXY
 	base_healing = 15
 
 /datum/action/cooldown/spell/healing/astrata/cast(mob/living/cast_on)
@@ -189,7 +189,7 @@
 
 /datum/action/cooldown/spell/healing/noc
 	name = "Soothing Moonlight"
-	healing_flags = (MIRACLE_HEAL_TOX|MIRACLE_HEAL_OXY)
+	healing_flags = MIRACLE_HEAL_TOX|MIRACLE_HEAL_OXY
 	base_healing = 15
 
 /datum/action/cooldown/spell/healing/noc/cast(mob/living/cast_on)
@@ -230,7 +230,7 @@
 		for(var/obj/O in oview(5, owner))
 			if(is_type_in_typecache(O, natural_stuff))
 				situational_bonus = min(situational_bonus + 0.5, 25)
-				situational_energy = min(situational_energy + 1, 10)
+				situational_energy = min(situational_energy + 2, 50)
 		if(situational_bonus > 0)
 			conditional_buff = TRUE
 		do_healing(cast_on, conditional_buff, situational_bonus, 0, 0, situational_energy)
@@ -279,12 +279,12 @@
 		if(length(target_wounds))
 			conditional_buff = TRUE
 			situational_bonus = (BLOOD_VOLUME_NORMAL - cast_on.blood_volume) * (0.01 * length(target_wounds))
-			situational_energy = length(target_wounds)
+			situational_energy = 10 * length(target_wounds)
 		do_healing(cast_on, conditional_buff, situational_bonus, 0, 0, situational_energy)
 
 /datum/action/cooldown/spell/healing/necra
 	name = "Veil's Respite"
-	healing_flags = (MIRACLE_HEAL_TOX|MIRACLE_HEAL_OXY)
+	healing_flags = MIRACLE_HEAL_TOX|MIRACLE_HEAL_OXY
 	base_healing = 5
 
 /datum/action/cooldown/spell/healing/necra/cast(mob/living/cast_on)
@@ -325,7 +325,7 @@
 
 /datum/action/cooldown/spell/healing/pestra
 	name = "Balance Humors"
-	healing_flags = (MIRACLE_HEAL_OXY|MIRACLE_HEAL_TARGET_ZONE)
+	healing_flags = MIRACLE_HEAL_OXY|MIRACLE_HEAL_TARGET_ZONE
 	base_healing = 10
 	wound_modifier = 0.3
 
@@ -337,6 +337,7 @@
 		var/situational_bonus = 0
 		var/wound_bonus = 0
 		var/situational_blood = 0
+		var/situational_flags = NONE
 		// when above target blood volume, heal more while leeching some blood
 		if(cast_on.blood_volume > BLOOD_VOLUME_OKAY)
 			conditional_buff = TRUE
@@ -368,7 +369,7 @@
 			if(!O.on)
 				continue
 			situational_bonus = min(situational_bonus + 3, 30)
-			situational_energy = min(situational_energy + 5, max((cast_on.max_energy * 0.2) - cast_on.energy, 0))
+			situational_energy = min(situational_energy + 20, max((cast_on.max_energy * 0.2) - cast_on.energy, 0))
 		if(situational_bonus > 0)
 			conditional_buff = TRUE
 		do_healing(cast_on, conditional_buff, situational_bonus, 0, 0, situational_energy)
@@ -496,6 +497,7 @@
 			for(var/datum/status_effect/path as anything in drugs_buffs)
 				if(living_owner.has_status_effect(path) || cast_on.has_status_effect(path))
 					situational_bonus = 25
+					break
 			if(living_owner.has_status_effect(/datum/status_effect/buff/drunk) || cast_on.has_status_effect(/datum/status_effect/buff/drunk))
 				situational_bonus += 25
 			if(situational_bonus > 0)
@@ -517,6 +519,7 @@
 		// The more alchemically significant body parts around the caster, the greater the effect.
 		var/conditional_buff = FALSE
 		var/situational_bonus = min(check_hunt_bonuses(owner, 5, 50, 0.5), 25)
+		var/situational_blood = 0
 		if(situational_bonus > 0)
 			conditional_buff = TRUE
 
@@ -539,7 +542,7 @@
 	cooldown_time = 20 SECONDS
 	spell_cost = 45
 
-	healing_flags = (MIRACLE_HEAL_TOX|MIRACLE_HEAL_OXY)
+	healing_flags = MIRACLE_HEAL_TOX|MIRACLE_HEAL_OXY
 	base_healing = 50
 	wound_modifier = 0.5
 	blood_restoration = BLOOD_VOLUME_SURVIVE
