@@ -149,13 +149,13 @@
 		var/obj/item/bodypart/affecting = C.get_bodypart(check_zone(owner.zone_selected))
 		if(affecting)
 			affecting.heal_damage(amount_healed, amount_healed)
-			affecting.heal_wounds(amount_healed * wound_rate)
+			affecting.heal_wounds(amount_healed * wound_rate, src)
 			C.update_damage_overlays()
 	else
 		amount_healed /= max(1, length(C.bodyparts))
 		for(var/obj/item/bodypart/B as anything in C.bodyparts)
 			B.heal_damage(amount_healed, amount_healed)
-			B.heal_wounds(amount_healed * wound_rate)
+			B.heal_wounds(amount_healed * wound_rate, src)
 		C.update_damage_overlays()
 
 /datum/action/cooldown/spell/healing/psydon
