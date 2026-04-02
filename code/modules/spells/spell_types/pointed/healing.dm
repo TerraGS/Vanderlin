@@ -131,9 +131,9 @@
 		return
 
 	SEND_SIGNAL(owner, COMSIG_LIVING_HEALED_OTHER, amount_healed)
-	if(heal_type &= MIRACLE_HEAL_TOX)
+	if(heal_type & MIRACLE_HEAL_TOX)
 		cast_on.adjustToxLoss(-amount_healed)
-	if(heal_type &= MIRACLE_HEAL_OXY)
+	if(heal_type & MIRACLE_HEAL_OXY)
 		cast_on.adjustOxyLoss(-amount_healed)
 	if(blood_restored)
 		cast_on.blood_volume = max(cast_on.blood_volume, min(cast_on.blood_volume + blood_restored, BLOOD_VOLUME_NORMAL))
@@ -145,7 +145,7 @@
 		return
 
 	var/mob/living/carbon/C = cast_on
-	if(heal_type &= MIRACLE_HEAL_TARGET_ZONE)
+	if(heal_type & MIRACLE_HEAL_TARGET_ZONE)
 		var/obj/item/bodypart/affecting = C.get_bodypart(check_zone(owner.zone_selected))
 		if(affecting)
 			affecting.heal_damage(amount_healed, amount_healed)
@@ -251,14 +251,14 @@
 		var/turf/target_turf = get_turf(cast_on)
 		if(istype(target_turf, /turf/open/water))
 			var/turf/open/water/W = target_turf
-			situational_bonus = 5 * W.water_level
-			situational_blood = 10 * W.water_level
+			situational_bonus = 5 * W.water_height
+			situational_blood = 10 * W.water_height
 		if(cast_on != owner)
 			var/turf/our_turf =  get_turf(owner)
 			if(istype(our_turf, /turf/open/water))
 				var/turf/open/water/W = our_turf
-				situational_bonus += 5 * W.water_level
-				situational_blood += 10 * W.water_level
+				situational_bonus += 5 * W.water_height
+				situational_blood += 10 * W.water_height
 		if(situational_bonus > 0)
 			conditional_buff = TRUE
 		do_healing(cast_on, conditional_buff, situational_bonus, 0, situational_blood, 0, situational_flags)
@@ -273,14 +273,16 @@
 		cast_on.visible_message(span_info("An air of righteous defiance rises near [cast_on]!"), span_notice("I'm filled with an urge to fight on!"))
 		var/conditional_buff = FALSE
 		var/situational_bonus = 0
+		var/wound_bonus = 0
 		var/situational_energy = 0
 		// if wounded, heal more for each wound the more blood lost
 		var/list/target_wounds = cast_on.get_wounds()
 		if(length(target_wounds))
 			conditional_buff = TRUE
 			situational_bonus = (BLOOD_VOLUME_NORMAL - cast_on.blood_volume) * (0.01 * length(target_wounds))
+			wound_bonus = 0.1 * length(target_wounds)
 			situational_energy = 10 * length(target_wounds)
-		do_healing(cast_on, conditional_buff, situational_bonus, 0, 0, situational_energy)
+		do_healing(cast_on, conditional_buff, situational_bonus, wound_bonus, 0, situational_energy)
 
 /datum/action/cooldown/spell/healing/necra
 	name = "Veil's Respite"

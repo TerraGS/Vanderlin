@@ -15,7 +15,24 @@
 
 /datum/devotion/divine/astrata
 	miracles = list(
-		CLERIC_T0 = /datum/action/cooldown/spell/healing/astrata,
+		CLERIC_T0 = list(/datum/action/cooldown/spell/healing/astrata,
+		//DO NOT LEAVE THIS IN
+		/datum/action/cooldown/spell/healing/noc,
+		/datum/action/cooldown/spell/healing/dendor,
+		/datum/action/cooldown/spell/healing/abyssor,
+		/datum/action/cooldown/spell/healing/necra,
+		/datum/action/cooldown/spell/healing/ravox,
+		/datum/action/cooldown/spell/healing/xylix,
+		/datum/action/cooldown/spell/healing/pestra,
+		/datum/action/cooldown/spell/healing/malum,
+		/datum/action/cooldown/spell/healing/eora,
+		/datum/action/cooldown/spell/healing/psydon,
+		/datum/action/cooldown/spell/healing/profane/zizo,
+		/datum/action/cooldown/spell/healing/profane/graggar,
+		/datum/action/cooldown/spell/healing/profane/matthios,
+		/datum/action/cooldown/spell/healing/profane/baotha,
+		/datum/action/cooldown/spell/diagnose/holy
+		),
 		CLERIC_T1 = /datum/action/cooldown/spell/sacred_flame,
 		CLERIC_T2 = /datum/action/cooldown/spell/healing/greater,
 		CLERIC_T3 = /datum/action/cooldown/spell/revive,
